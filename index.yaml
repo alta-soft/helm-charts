@@ -1,11 +1,29 @@
 apiVersion: v1
 entries:
+  apigateway:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-11-02T14:27:55.308097272+03:00"
+    description: API шлюз
+    digest: cd86fb89bd0ecc182e5ad0d1c4d571a7740289dbfccca69da5c666e10e30a668
+    keywords:
+    - altacloud
+    - alta soft
+    maintainers:
+    - email: n.pletnev@alta-group.ru
+      name: Nikolai_Pletnev
+    - email: a.aksenov@alta-group.ru
+      name: Aleksandr_Aksenov
+    name: apigateway
+    urls:
+    - https://alta-soft.github.io/helm-charts/apigateway-1.0.0.tgz
+    version: 1.0.0
   stations:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-11-02T11:53:10.20583341+03:00"
+    created: "2023-11-02T14:27:55.308663495+03:00"
     description: Сервис станций
-    digest: a2fd8731c808532e1fb88d6ba56932049a38e8d0d09e232769cebc45ec8d2f2d
+    digest: 1ceb61f6ddb07133f3605417716dc0ca03337ca52c6a65c05708840cfa6c7121
     keywords:
     - altacloud
     - alta soft
@@ -18,4 +36,4 @@ entries:
     urls:
     - https://alta-soft.github.io/helm-charts/stations-1.0.0.tgz
     version: 1.0.0
-generated: "2023-11-02T11:53:10.205456379+03:00"
+generated: "2023-11-02T14:27:55.307615051+03:00"

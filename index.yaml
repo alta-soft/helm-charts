@@ -3,7 +3,7 @@ entries:
   apigateway:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-11-02T14:27:55.308097272+03:00"
+    created: "2023-11-02T15:19:52.903621537+03:00"
     description: API шлюз
     digest: cd86fb89bd0ecc182e5ad0d1c4d571a7740289dbfccca69da5c666e10e30a668
     keywords:
@@ -18,10 +18,28 @@ entries:
     urls:
     - https://alta-soft.github.io/helm-charts/apigateway-1.0.0.tgz
     version: 1.0.0
+  passport:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-11-02T15:19:52.90389403+03:00"
+    description: Сервис регистрации и хранения пользователей
+    digest: 354ca096975099598f3e188e71ef33f53bbbf2f24fd0bf381934ad4224c79d2c
+    keywords:
+    - altacloud
+    - alta soft
+    maintainers:
+    - email: n.pletnev@alta-group.ru
+      name: Nikolai_Pletnev
+    - email: a.aksenov@alta-group.ru
+      name: Aleksandr_Aksenov
+    name: passport
+    urls:
+    - https://alta-soft.github.io/helm-charts/passport-1.0.0.tgz
+    version: 1.0.0
   stations:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-11-02T14:27:55.308663495+03:00"
+    created: "2023-11-02T15:19:52.904520488+03:00"
     description: Сервис станций
     digest: 1ceb61f6ddb07133f3605417716dc0ca03337ca52c6a65c05708840cfa6c7121
     keywords:
@@ -36,4 +54,4 @@ entries:
     urls:
     - https://alta-soft.github.io/helm-charts/stations-1.0.0.tgz
     version: 1.0.0
-generated: "2023-11-02T14:27:55.307615051+03:00"
+generated: "2023-11-02T15:19:52.903355448+03:00"

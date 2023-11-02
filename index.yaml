@@ -3,7 +3,7 @@ entries:
   apigateway:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-11-02T15:19:52.903621537+03:00"
+    created: "2023-11-02T16:29:37.818900473+03:00"
     description: API шлюз
     digest: cd86fb89bd0ecc182e5ad0d1c4d571a7740289dbfccca69da5c666e10e30a668
     keywords:
@@ -21,7 +21,7 @@ entries:
   passport:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-11-02T15:19:52.90389403+03:00"
+    created: "2023-11-02T16:29:37.819439256+03:00"
     description: Сервис регистрации и хранения пользователей
     digest: 354ca096975099598f3e188e71ef33f53bbbf2f24fd0bf381934ad4224c79d2c
     keywords:
@@ -36,10 +36,29 @@ entries:
     urls:
     - https://alta-soft.github.io/helm-charts/passport-1.0.0.tgz
     version: 1.0.0
+  promconnector:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-11-02T16:29:37.819661663+03:00"
+    description: MQTT клиент. Сбор метрик с промышленных станций и отправка в шину
+      данных. Gradle project
+    digest: e2d72bb280c92effe12b13e696740178302c5d1f21b2a0d7b5fed0a5576e3e27
+    keywords:
+    - altacloud
+    - alta soft
+    maintainers:
+    - email: n.pletnev@alta-group.ru
+      name: Nikolai_Pletnev
+    - email: a.aksenov@alta-group.ru
+      name: Aleksandr_Aksenov
+    name: promconnector
+    urls:
+    - https://alta-soft.github.io/helm-charts/promconnector-1.0.0.tgz
+    version: 1.0.0
   stations:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-11-02T15:19:52.904520488+03:00"
+    created: "2023-11-02T16:29:37.819904071+03:00"
     description: Сервис станций
     digest: 1ceb61f6ddb07133f3605417716dc0ca03337ca52c6a65c05708840cfa6c7121
     keywords:
@@ -54,4 +73,4 @@ entries:
     urls:
     - https://alta-soft.github.io/helm-charts/stations-1.0.0.tgz
     version: 1.0.0
-generated: "2023-11-02T15:19:52.903355448+03:00"
+generated: "2023-11-02T16:29:37.818283729+03:00"

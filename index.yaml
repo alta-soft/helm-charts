@@ -3,7 +3,7 @@ entries:
   stations:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-11-02T11:33:53.111109265+03:00"
+    created: "2023-11-02T11:53:10.20583341+03:00"
     description: Сервис станций
     digest: a2fd8731c808532e1fb88d6ba56932049a38e8d0d09e232769cebc45ec8d2f2d
     keywords:
@@ -16,6 +16,6 @@ entries:
       name: Aleksandr_Aksenov
     name: stations
     urls:
-    - stations-1.0.0.tgz
+    - https://alta-soft.github.io/helm-charts/stations-1.0.0.tgz
     version: 1.0.0
-generated: "2023-11-02T11:33:53.110783406+03:00"
+generated: "2023-11-02T11:53:10.205456379+03:00"

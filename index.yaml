@@ -3,7 +3,7 @@ entries:
   apigateway:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-11-03T11:36:09.730653428+03:00"
+    created: "2023-11-03T12:49:49.42764556+03:00"
     description: API шлюз
     digest: cd86fb89bd0ecc182e5ad0d1c4d571a7740289dbfccca69da5c666e10e30a668
     keywords:
@@ -21,9 +21,9 @@ entries:
   charts:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-11-03T11:36:09.730923598+03:00"
+    created: "2023-11-03T12:49:49.427895296+03:00"
     description: Сервис графиков
-    digest: d9c789ab8f5ee6aff89d0ebfe6b2a18a9dddd54015211f3350e7841929237fe1
+    digest: 03f18c7c77b2ac9a1b55ec02fdf596d66488c468b01a98d5a34783b7161d26dc
     keywords:
     - altacloud
     - alta soft
@@ -39,7 +39,7 @@ entries:
   metricstore:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-11-03T11:36:09.731516598+03:00"
+    created: "2023-11-03T12:49:49.42808118+03:00"
     description: Сервис хранения событий сенсоров
     digest: 2f5d6f83f087c23341da84e56ca4b8ae5297fa8869b103d3243571727b052e0b
     keywords:
@@ -57,7 +57,7 @@ entries:
   passport:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-11-03T11:36:09.731762602+03:00"
+    created: "2023-11-03T12:49:49.428283073+03:00"
     description: Сервис регистрации и хранения пользователей
     digest: 354ca096975099598f3e188e71ef33f53bbbf2f24fd0bf381934ad4224c79d2c
     keywords:
@@ -75,7 +75,7 @@ entries:
   promconnector:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-11-03T11:36:09.731951459+03:00"
+    created: "2023-11-03T12:49:49.428465718+03:00"
     description: MQTT клиент. Сбор метрик с промышленных станций и отправка в шину
       данных. Gradle project
     digest: e2d72bb280c92effe12b13e696740178302c5d1f21b2a0d7b5fed0a5576e3e27
@@ -91,10 +91,28 @@ entries:
     urls:
     - https://alta-soft.github.io/helm-charts/promconnector-1.0.0.tgz
     version: 1.0.0
+  reports:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-11-03T12:49:49.42867741+03:00"
+    description: Сервис отчетов
+    digest: 3325ab6c3238bea6f1f25f39efa579a523a52615fde08a110e9e172668135472
+    keywords:
+    - altacloud
+    - alta soft
+    maintainers:
+    - email: n.pletnev@alta-group.ru
+      name: Nikolai_Pletnev
+    - email: a.aksenov@alta-group.ru
+      name: Aleksandr_Aksenov
+    name: reports
+    urls:
+    - https://alta-soft.github.io/helm-charts/reports-1.0.0.tgz
+    version: 1.0.0
   stations:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-11-03T11:36:09.732184582+03:00"
+    created: "2023-11-03T12:49:49.428897979+03:00"
     description: Сервис станций
     digest: 1ceb61f6ddb07133f3605417716dc0ca03337ca52c6a65c05708840cfa6c7121
     keywords:
@@ -109,4 +127,4 @@ entries:
     urls:
     - https://alta-soft.github.io/helm-charts/stations-1.0.0.tgz
     version: 1.0.0
-generated: "2023-11-03T11:36:09.730368736+03:00"
+generated: "2023-11-03T12:49:49.427387165+03:00"

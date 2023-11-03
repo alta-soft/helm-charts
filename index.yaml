@@ -3,7 +3,7 @@ entries:
   admin:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-11-03T15:40:51.057650358+03:00"
+    created: "2023-11-03T16:07:35.676932167+03:00"
     description: Администрирование Alta Cloud
     digest: 2aa4f26570fa45ad161d5da200443c8b5d9e64ee0388e874166805c1c02439b7
     keywords:
@@ -21,7 +21,7 @@ entries:
   apigateway:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-11-03T15:40:51.057836208+03:00"
+    created: "2023-11-03T16:07:35.677117061+03:00"
     description: API шлюз
     digest: cd86fb89bd0ecc182e5ad0d1c4d571a7740289dbfccca69da5c666e10e30a668
     keywords:
@@ -39,7 +39,7 @@ entries:
   charts:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-11-03T15:40:51.058098588+03:00"
+    created: "2023-11-03T16:07:35.677411915+03:00"
     description: Сервис графиков
     digest: 03f18c7c77b2ac9a1b55ec02fdf596d66488c468b01a98d5a34783b7161d26dc
     keywords:
@@ -57,7 +57,7 @@ entries:
   constructor:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-11-03T15:40:51.058254968+03:00"
+    created: "2023-11-03T16:07:35.677588858+03:00"
     description: Конструктор станций и менеджер шаблонов спецификаций
     digest: 3b2c1b41490c8fc55f4695b2b6dc68583e4295acf6e7ae01027eeca664350119
     keywords:
@@ -75,7 +75,7 @@ entries:
   errors:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-11-03T15:40:51.058484068+03:00"
+    created: "2023-11-03T16:07:35.677845952+03:00"
     description: Сервис хранения ошибок оборудования
     digest: 3842874241bb8b3656df9d305038c01a6fcb8de41e6515ae2aa26470cc9b1a12
     keywords:
@@ -93,7 +93,7 @@ entries:
   metricstore:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-11-03T15:40:51.058674775+03:00"
+    created: "2023-11-03T16:07:35.678046685+03:00"
     description: Сервис хранения событий сенсоров
     digest: 2f5d6f83f087c23341da84e56ca4b8ae5297fa8869b103d3243571727b052e0b
     keywords:
@@ -111,7 +111,7 @@ entries:
   passport:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-11-03T15:40:51.058883992+03:00"
+    created: "2023-11-03T16:07:35.678606001+03:00"
     description: Сервис регистрации и хранения пользователей
     digest: 354ca096975099598f3e188e71ef33f53bbbf2f24fd0bf381934ad4224c79d2c
     keywords:
@@ -129,7 +129,7 @@ entries:
   promconnector:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-11-03T15:40:51.059062973+03:00"
+    created: "2023-11-03T16:07:35.678830934+03:00"
     description: MQTT клиент. Сбор метрик с промышленных станций и отправка в шину
       данных. Gradle project
     digest: e2d72bb280c92effe12b13e696740178302c5d1f21b2a0d7b5fed0a5576e3e27
@@ -148,7 +148,7 @@ entries:
   reports:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-11-03T15:40:51.05927588+03:00"
+    created: "2023-11-03T16:07:35.679079619+03:00"
     description: Сервис отчетов
     digest: 3325ab6c3238bea6f1f25f39efa579a523a52615fde08a110e9e172668135472
     keywords:
@@ -166,7 +166,7 @@ entries:
   stations:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-11-03T15:40:51.059497016+03:00"
+    created: "2023-11-03T16:07:35.679367298+03:00"
     description: Сервис станций
     digest: 1ceb61f6ddb07133f3605417716dc0ca03337ca52c6a65c05708840cfa6c7121
     keywords:
@@ -181,4 +181,20 @@ entries:
     urls:
     - https://alta-soft.github.io/helm-charts/stations-1.0.0.tgz
     version: 1.0.0
-generated: "2023-11-03T15:40:51.056692471+03:00"
+  webclient:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-11-03T16:07:35.679492874+03:00"
+    description: Web client Alta Cloud
+    digest: 318c6da12d650acad64e568ec535aa76712b509843041db92f7da8e89acf9332
+    keywords:
+    - altacloud
+    - alta soft
+    maintainers:
+    - email: i.kazincev@alta-group.ru
+      name: Ivan_Kazincev
+    name: webclient
+    urls:
+    - https://alta-soft.github.io/helm-charts/webclient-1.0.0.tgz
+    version: 1.0.0
+generated: "2023-11-03T16:07:35.67658621+03:00"

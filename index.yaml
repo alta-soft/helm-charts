@@ -3,9 +3,9 @@ entries:
   abconnector:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-11-14T10:07:44.007419337+03:00"
+    created: "2023-11-15T11:23:56.901823138+03:00"
     description: Сервис сбора данных со станций altabio
-    digest: c257791753e7815a780100321ce2a75a084929577362de5be1d8fea72d3319a7
+    digest: 1ef5fddd097ae0f71e56934d3244f22a38adb8f0e8f4e4f0dfef8d027c0df216
     keywords:
     - altacloud
     - alta soft
@@ -21,9 +21,9 @@ entries:
   admin:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-11-14T10:07:44.007648865+03:00"
+    created: "2023-11-15T11:23:56.902074423+03:00"
     description: Администрирование Alta Cloud
-    digest: f51f429bd3196fd2813749d7572baa4dc694ee2d7f266c4d7c1fa0ceca0f1a11
+    digest: 49b8171c03668df68a5e6c818f528aa47607fe6bc8ef8a6d7b3d5966d0c15126
     keywords:
     - altacloud
     - alta soft
@@ -39,9 +39,9 @@ entries:
   apigateway:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-11-14T10:07:44.007786343+03:00"
+    created: "2023-11-15T11:23:56.902736476+03:00"
     description: API шлюз
-    digest: d9b75f3c89cad6069027488f0a6f4f9743afc658e08d5d1c41fd1ea1a4dcbb6f
+    digest: 77554737e4d7af6d1d0c0f7eab3367cd98fdc89f8026743a0c9e943a3018da24
     keywords:
     - altacloud
     - alta soft
@@ -57,9 +57,9 @@ entries:
   charts:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2023-11-14T10:07:44.008016212+03:00"
+    created: "2023-11-15T11:23:56.9030234+03:00"
     description: Сервис графиков
-    digest: 0c9775f0dd1871d9d435f6ddb3451912cd3802660dc5ad14ed428eecdc17d1a9
+    digest: 1ad6b0671718444bc5e4ff244d3f68d4f2781166e5b3c64ff37bc35921a5b6a6
     keywords:
     - altacloud
     - alta soft
@@ -75,9 +75,9 @@ entries:
   clogged-n-idle:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-11-14T10:07:44.008216831+03:00"
+    created: "2023-11-15T11:23:56.903258488+03:00"
     description: Сервис определения засора и холостого хода насосов
-    digest: b96382df7f2b02cb709ce83cea9ee62ef0b06dad29e597da0cc47442cd8de150
+    digest: 6bb69f7687a92c38a3cf9fd731f58c588acce9a155855683cf1ad0bebc41c982
     keywords:
     - altacloud
     - alta soft
@@ -93,9 +93,9 @@ entries:
   constructor:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-11-14T10:07:44.008355231+03:00"
+    created: "2023-11-15T11:23:56.903411357+03:00"
     description: Конструктор станций и менеджер шаблонов спецификаций
-    digest: b71ff300996d5e90835cc2ee074c53023fbe5dfcbb038bed755d0c2c7426f885
+    digest: f4dd37a672b0f3be835294a1b01219d7a74f99b31f783d6a42fb8e51f9aa2a99
     keywords:
     - altacloud
     - alta soft
@@ -111,9 +111,9 @@ entries:
   device-states:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-11-14T10:07:44.008532004+03:00"
+    created: "2023-11-15T11:23:56.90360759+03:00"
     description: Состояния (вкл/выкл) устройств
-    digest: c3699264410af43fcc91d34d1957f4a01bbf07dda91cc1c84448515192b0587b
+    digest: 4d766d67c578e4eaa9c58461935c119ff904595cce6be5e7f358dc4049cb4b14
     keywords:
     - altacloud
     - alta soft
@@ -129,9 +129,9 @@ entries:
   errors:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2023-11-14T10:07:44.008744351+03:00"
+    created: "2023-11-15T11:23:56.903846753+03:00"
     description: Сервис хранения ошибок оборудования
-    digest: 511c0c2453ccbfb8b0c42ea977d5900a6bcd9c9209983d2e1a5af3fe3389ef96
+    digest: 57024fe2a2fcd4e77fd2e732462c33b5fec6b95935946df1728147e303b0a2d1
     keywords:
     - altacloud
     - alta soft
@@ -147,9 +147,9 @@ entries:
   flowmeter:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-11-14T10:07:44.008951408+03:00"
+    created: "2023-11-15T11:23:56.904071155+03:00"
     description: Расходомер
-    digest: 49063e35b7b67324a7f4a57d987cc5e33860cae7c9208f96c9eac119aca78aa8
+    digest: 078e0663a98db6106f85da8c5823961f474177c26842a8c221068c861c8ce560
     keywords:
     - altacloud
     - alta soft
@@ -165,9 +165,9 @@ entries:
   machinehours:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-11-14T10:07:44.009110626+03:00"
+    created: "2023-11-15T11:23:56.904237226+03:00"
     description: Сервис расчета моточасов оборудования
-    digest: e582ad8ce2ce21a42c94fafcfc97b498fe7a854dd6a8cc41993fb5da7a82f852
+    digest: d7289d3f698112ec6cf997e74e85467685ef4ff813ab8d501a54fd4d7744d2f7
     keywords:
     - altacloud
     - alta soft
@@ -183,9 +183,9 @@ entries:
   metricstore:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2023-11-14T10:07:44.009302604+03:00"
+    created: "2023-11-15T11:23:56.904422818+03:00"
     description: Сервис хранения событий сенсоров
-    digest: a6e17b74a255b31f26bc90931112a065a6d6cbeef86142ebd36d98eda4e876a9
+    digest: 22e3ff3b87d1948bea38eb6e0ff723240beb2f074334854f89213be56900b2cc
     keywords:
     - altacloud
     - alta soft
@@ -201,9 +201,9 @@ entries:
   passport:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2023-11-14T10:07:44.00952254+03:00"
+    created: "2023-11-15T11:23:56.904610731+03:00"
     description: Сервис регистрации и хранения пользователей
-    digest: b78368e749f8a771a43fa5b01b30ab7a0097563c68df18657c06863ca82fd7f5
+    digest: 819aa34869457c194b781befdbc6d37fffd5368f28eaa0b03c9fecd606135126
     keywords:
     - altacloud
     - alta soft
@@ -219,9 +219,9 @@ entries:
   powerconsumption:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-11-14T10:07:44.00973197+03:00"
+    created: "2023-11-15T11:23:56.90479804+03:00"
     description: Сервис расчета потребляемой мощности
-    digest: 4e3f99eca57cf3b248f763476e080dab76c353a051c3d4a5c27a0f5e87d07a82
+    digest: 67e60fb0eb157426eb91d3086a0aa1a92f5819083679ecbd94830488d0b1931b
     keywords:
     - altacloud
     - alta soft
@@ -237,9 +237,9 @@ entries:
   reports:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2023-11-14T10:07:44.010043894+03:00"
+    created: "2023-11-15T11:23:56.905089385+03:00"
     description: Сервис отчетов
-    digest: e1792b499bf95901d291050515ddce73c2a2f0f381c9394c9d052f1334a4f164
+    digest: 4168dd4544c56f1de626376d03800e107877efa6fe6fd04973842f345b70867e
     keywords:
     - altacloud
     - alta soft
@@ -255,9 +255,9 @@ entries:
   stations:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2023-11-14T10:07:44.010293735+03:00"
+    created: "2023-11-15T11:23:56.905317523+03:00"
     description: Сервис станций
-    digest: 89f96488a032eb7a9a3504d8b9ae9d1106aa400817c5a99c39ed5630ca85bc8a
+    digest: 0f0063ffe5016968783b5128d905ad5f6ad32a987665cf76fd456ac4552e877a
     keywords:
     - altacloud
     - alta soft
@@ -273,9 +273,9 @@ entries:
   temperature:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-11-14T10:07:44.010521722+03:00"
+    created: "2023-11-15T11:23:56.905519829+03:00"
     description: Сервис определения превышения среднечасовой и среднесуточной температуры
-    digest: cce9ffe1fe465dbb67ec6e1debbebe72227f440db2d06177ecf9699d868c92d2
+    digest: 8ffd2e718b84f3843f479ce554e196b61f9e36b4c5a005e515224e29380197e2
     keywords:
     - altacloud
     - alta soft
@@ -291,9 +291,9 @@ entries:
   webclient:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2023-11-14T10:07:44.010631306+03:00"
+    created: "2023-11-15T11:23:56.905616261+03:00"
     description: Web client Alta Cloud
-    digest: 3460267feb99a0992e911a8fd38ba7a963e8f151f756f8b89f97856b5ca72933
+    digest: 5907af85bcda9509d361754e0fa109319122248da59ed3b07363a721415f7536
     keywords:
     - altacloud
     - alta soft
@@ -304,4 +304,4 @@ entries:
     urls:
     - https://alta-soft.github.io/helm-charts/webclient-1.0.0.tgz
     version: 1.0.0
-generated: "2023-11-14T10:07:44.007073967+03:00"
+generated: "2023-11-15T11:23:56.901464515+03:00"

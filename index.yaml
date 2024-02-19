@@ -3,7 +3,7 @@ entries:
   abconnector:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-02-19T16:47:30.289531+03:00"
+    created: "2024-02-19T16:54:26.133964+03:00"
     description: Сервис сбора данных со станций altabio
     digest: 2fd34b36f89ed82cc560fae86f1c1b600940132984f84c2cbb2a7a3c956b8b25
     keywords:
@@ -21,7 +21,7 @@ entries:
   admin:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-19T16:47:30.2899+03:00"
+    created: "2024-02-19T16:54:26.134406+03:00"
     description: Администрирование Alta Cloud
     digest: 62f8133ef6d28f658ffdf06cf62e3db1926d27437df42a9be318c3cca484b9ac
     keywords:
@@ -39,7 +39,7 @@ entries:
   apigateway:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-19T16:47:30.290197+03:00"
+    created: "2024-02-19T16:54:26.134711+03:00"
     description: API шлюз
     digest: 661f6e5b4b3e5c56905d13f2f50559fcc89738600096dc43d28e514fca592f8e
     keywords:
@@ -57,7 +57,7 @@ entries:
   charts:
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2024-02-19T16:47:30.290906+03:00"
+    created: "2024-02-19T16:54:26.135119+03:00"
     description: Сервис графиков
     digest: d93c16193ce78b5e0c50ecc4fb4684a770cda2d56c00e17295acc6342a5bd1b8
     keywords:
@@ -75,7 +75,7 @@ entries:
   clogged-n-idle:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-02-19T16:47:30.291191+03:00"
+    created: "2024-02-19T16:54:26.135505+03:00"
     description: Сервис определения засора и холостого хода насосов
     digest: 99525c27cfa1d4b6d9e04fe9209591664be9b5450ce7549f09eab0a8c7ae2980
     keywords:
@@ -93,7 +93,7 @@ entries:
   constructor:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-19T16:47:30.291384+03:00"
+    created: "2024-02-19T16:54:26.135842+03:00"
     description: Конструктор станций и менеджер шаблонов спецификаций
     digest: 3d2e5af8b5b4530e5d821a565851218ee616c1c80de36987ae9fbb817aa11c68
     keywords:
@@ -111,7 +111,7 @@ entries:
   device-states:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-02-19T16:47:30.291615+03:00"
+    created: "2024-02-19T16:54:26.136195+03:00"
     description: Состояния (вкл/выкл) устройств
     digest: 672357332b807be0f123960cd358db061819a78d4e3abf0970fe779a8fb20fe9
     keywords:
@@ -129,7 +129,7 @@ entries:
   errors:
   - apiVersion: v2
     appVersion: 1.0.3
-    created: "2024-02-19T16:47:30.291904+03:00"
+    created: "2024-02-19T16:54:26.136625+03:00"
     description: Сервис хранения ошибок оборудования
     digest: 16a8f5b4fef35fb32de0cca0b8e3336b27e1c32e273a1d451f9fa27330446f59
     keywords:
@@ -147,7 +147,7 @@ entries:
   flowmeter:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-02-19T16:47:30.29216+03:00"
+    created: "2024-02-19T16:54:26.137123+03:00"
     description: Расходомер
     digest: 3dd793a531656a311fb7d8818b9279661a526b96162cc103dbbd65d5ba82f731
     keywords:
@@ -165,7 +165,7 @@ entries:
   machinehours:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-02-19T16:47:30.292362+03:00"
+    created: "2024-02-19T16:54:26.137479+03:00"
     description: Сервис расчета моточасов оборудования
     digest: 0b81d5853b645f129ff8d28e85aba335d0f8ff1e704a1b2f4a3b1aaa9a946229
     keywords:
@@ -183,7 +183,7 @@ entries:
   metricstore:
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2024-02-19T16:47:30.292566+03:00"
+    created: "2024-02-19T16:54:26.13782+03:00"
     description: Сервис хранения событий сенсоров
     digest: b66aa7fb3edeb1c288da40db9770d75b4d6d26ff1575cfc01caee964b137a49d
     keywords:
@@ -201,7 +201,7 @@ entries:
   passport:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2024-02-19T16:47:30.29278+03:00"
+    created: "2024-02-19T16:54:26.138148+03:00"
     description: Сервис регистрации и хранения пользователей
     digest: bfd72ab76e7bd8c35bff90f53b851b4d4666d0183557e21ebba484774f4840d6
     keywords:
@@ -219,7 +219,7 @@ entries:
   powerconsumption:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-02-19T16:47:30.293001+03:00"
+    created: "2024-02-19T16:54:26.138479+03:00"
     description: Сервис расчета потребляемой мощности
     digest: deadb9493265a9c428b4de41fccfc737b5a4b8135ed326d94435305f324f78ea
     keywords:
@@ -237,7 +237,7 @@ entries:
   promconnector:
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2024-02-19T16:47:30.293211+03:00"
+    created: "2024-02-19T16:54:26.138754+03:00"
     description: MQTT клиент. Сбор метрик с промышленных станций и отправка в шину
       данных. Gradle project
     digest: 03fcaf924500b78bda8e373be0c4c1fa3967c748d0d94bcc9bd0bad6dd0482b4
@@ -256,7 +256,7 @@ entries:
   reports:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2024-02-19T16:47:30.293479+03:00"
+    created: "2024-02-19T16:54:26.139065+03:00"
     description: Сервис отчетов
     digest: f124e3582e4cba2d7712cecf7c4bf5e69a676ca9527d55b36a547a59614d221e
     keywords:
@@ -274,7 +274,7 @@ entries:
   stations:
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2024-02-19T16:47:30.293741+03:00"
+    created: "2024-02-19T16:54:26.139383+03:00"
     description: Сервис станций
     digest: 42011c26450f10e746551b1526e01da32882db8ebc87fe74cae16a132413ab08
     keywords:
@@ -292,7 +292,7 @@ entries:
   temperature:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-02-19T16:47:30.2941+03:00"
+    created: "2024-02-19T16:54:26.139705+03:00"
     description: Сервис определения превышения среднечасовой и среднесуточной температуры
     digest: 1f79ab985a1b45d7c8fa18539a354706f1a880f54d395d332b318d6138bb7706
     keywords:
@@ -310,9 +310,9 @@ entries:
   webclient:
   - apiVersion: v2
     appVersion: 1.0.3
-    created: "2024-02-19T16:47:30.294313+03:00"
+    created: "2024-02-19T16:54:26.139912+03:00"
     description: Web client Alta Cloud
-    digest: 76eb38e5b20c011bf251b749010c79aea8389a0a33c07f1db37d93fdedbbaad6
+    digest: f0cfc2798f72e840b9475f97207beb6c1fa58cd3181a2652a8a6bd91fb7a2e4d
     keywords:
     - altacloud
     - alta soft
@@ -323,4 +323,4 @@ entries:
     urls:
     - https://alta-soft.github.io/helm-charts/webclient-1.0.0.tgz
     version: 1.0.0
-generated: "2024-02-19T16:47:30.288199+03:00"
+generated: "2024-02-19T16:54:26.132471+03:00"
